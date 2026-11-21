@@ -14,6 +14,7 @@
  * of the software or derivative works thereof, you agree to be bound by this License.
  */
 
+#include <algorithm>  // std::copy_n: GCC 15 no longer pulls it in transitively
 #include <chrono>
 
 #include "nanobind/nanobind.h"
